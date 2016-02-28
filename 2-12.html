@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .demo{
+            width:300px;
+            border:1px solid #ccc;
+            padding: 10px;
+            overflow: hidden;
+            margin: 20px auto;
+        }
+        .demo a{
+            float:left;
+            display: block;
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            text-align: center;
+            background: #004ab3;
+            color:blue;
+            font: hold 20px/50px Arial;
+            margin-right: 5px;
+            text-decoration: none;
+            margin: 5px;
+        }
+        a[id]{
+            background-color: #236859;
+        }
+        a[id][title]{
+            background-color: slategrey;
+        }
+        a[id=last]{
+            background-color:#ebf3f3;
+        }
+        a[lang|=zh]{
+            background-color: aqua;
+        }
+        a[title~=website]{
+            background-color:yellowgreen;
+        }
+        a[class*=links]{
+            background-color: cornsilk;
+        }
+        a[href^=http]{
+            background-color: cyan;
+        }
+        a[href$=jpg]{
+            background-color: #6bb2ff;
+        }
+    </style>
+</head>
+<body>
+    <div class = "demo">
+        <a href = "http://www.test1.com" target="_blank" class = "links item first" id = "first" title="test1">1</a>
+        <a href = "http://www.test1.com" target="_blank" class = "links active item"  title="test1">2</a>
+        <a href = "http://www.test1.com/test.jpg" target="_blank" class = "links item"title="test1">3</a>
+        <a href = "http://www.test1.com" target="_blank" class = "links item" title="test1">4</a>
+        <a href = "http://www.test1.com" target="_blank" class = "links item" title="test1">5</a>
+        <a href = "http://www.test1.com" target="_blank" class = "links item"  title="test1" lang="zh">6</a>
+        <a href = "http://www.test1.com" target="_blank" class = "links item first"  title="website" lang="cn">7</a>
+        <a href = "http://www.test1.com" target="_blank" class = "links item first" title="test1" lang="en-ch">8</a>
+        <a href = "http://www.test1.com" target="_blank" class = "links item"  title="test1"  id ="testDom">9</a>
+        <a href="http://www.test1.com" class="linksitem last" id ="last">10</a>
+    </div>
+</body>
+</html>
