@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .border-image{
+            background-color: #6bb2ff;
+            width:150px;
+            height: 100px;
+            border: 27px solid;
+            -webkit-border-image: url(images/border.jpg) 27 round stretch;
+            -moz-border-image: url( images/border.jpg) 27 round stretch;
+            -o-border-image: url( images/border.jpg) 27 round stretch;
+            -ms-border-image: url( images/border.jpg) 27 round stretch;
+        }
+        .border-image-repeat{
+            background-color: #6bb2ff;
+            width:150px;
+            height: 100px;
+            border: 27px solid;
+            -webkit-border-image: url(images/border.jpg) 27 repeat stretch;
+            -moz-border-image: url( images/border.jpg) 27 repeat stretch;
+            -o-border-image: url( images/border.jpg) 27 repeat stretch;
+            -ms-border-image: url( images/border.jpg) 27 repeat stretch;
+        }
+        .border-image-stretch{
+            background-color: #6bb2ff;
+            width:150px;
+            height: 100px;
+            border: 27px solid;
+            -webkit-border-image: url(images/border.jpg) 27 stretch stretch;
+            -moz-border-image: url( images/border.jpg) 27 stretch stretch;
+            -o-border-image: url( images/border.jpg) 27 stretch stretch;
+            -ms-border-image: url( images/border.jpg) 27 stretch stretch;
+        }
+    </style>
+</head>
+<body>
+    水平：平铺\重复\拉伸
+    <div class="border-image"></div>
+    <div class="border-image-repeat"></div>
+    <div class="border-image-stretch"></div>
+</body>
+</html>
