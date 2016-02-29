@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="323f2b58-66ac-4922-a2ce-d3c690d3f7bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-14.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-8.html" afterPath="$PROJECT_DIR$/2-8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-15.html" />
     </list>
     <ignored path="css.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2-14.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2-14.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-14.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5608365">
-              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="15" />
+            <state vertical-scroll-proportion="-0.033333335">
+              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2-15.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2-15.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.76045626">
+              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -81,6 +90,7 @@
         <option value="$PROJECT_DIR$/2-8.html" />
         <option value="$PROJECT_DIR$/2-13.html" />
         <option value="$PROJECT_DIR$/2-14.html" />
+        <option value="$PROJECT_DIR$/2-15.html" />
       </list>
     </option>
   </component>
@@ -188,6 +198,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
     </key>
@@ -383,8 +396,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2-14.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5608365">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="15" />
+        <state vertical-scroll-proportion="-0.033333335">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76045626">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
           <folding />
         </state>
       </provider>
