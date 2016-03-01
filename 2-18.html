@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .border-image-drop-boxshadow{
+            width: 150px;
+            height: 50px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-width: 7px 7px 16px;
+            border-image: url("images/border-background.gif") 7px 7px 16px 7px;
+            -moz-border-image: url("images/border-background.gif") 7px 7px 16px 7px;
+            -webkit-border-image: url("images/border-background.gif") 7px 7px 16px 7px;
+            -o-border-image: url("images/border-background.gif") 7px 7px 16px 7px;
+            -ms-border-image: url("images/border-background.gif") 7px 7px 16px 7px;
+        }
+        .box1{
+            width: 100px;
+            height: 50px;
+        }
+        .box2{
+            width: 200px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="border-image-drop-boxshadow box1">small</div>
+    <div class="border-image-drop-boxshadow box2">big</div>
+</body>
+</html>
