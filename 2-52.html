@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .demo{
+            width: 500px;
+            height: 300px;
+            border:20px solid rgba(104,105,168,0.5);
+            border-radius: 10px;
+            padding: 80px 60px;
+            color:#123589;
+            font-size: 25px;
+            line-height: 1.5;
+            text-align: center;
+        }
+        .multipleBg{
+            background: url("images/round-box1.jpg") no-repeat left top,
+            url("images/round-box-2.jpg") no-repeat right top,
+            url("images/border-radius.jpg") no-repeat left bottom,
+            url("images/tabs-image.jpg") no-repeat right bottom,
+            url("images/border.jpg") no-repeat right bottom;
+            -webkit-background-origin: border-box,border-box,border-box,border-box,padding-box;
+            -moz-background-origin: border-box,border-box,border-box,border-box,padding-box;
+            -o-background-origin: border-box,border-box,border-box,border-box,padding-box;
+            background-origin: border-box,border-box,border-box,border-box,padding-box;
+            -moz-background-clip: border-box;
+            -webkit-background-clip: border-box;
+            -o-background-clip:border-box;
+            background-clip: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo multipleBg">用五张背景图片做出这样的效果</div>
+</body>
+</html>
