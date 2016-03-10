@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .text-wrap{
+            width: 600px;
+            margin: 10px auto;
+            padding: 10px 0;
+            border: 5px solid #289356;
+            position: relative;
+            box-shadow: 0 0 4px rgba(0,0,37,0.80);
+            clear: both;
+            font-family: Arial,Serif;
+            font-size: 50px;
+            text-align: center;
+            color: #f6f6f6;
+        }
+        .box1{
+            text-shadow:
+                0px 0px 0 rgb(188,178,188),
+                1px 0px 0 rgb(173,163,153),
+                2px 0px 0 rgb(156,138,126),
+                3px 0px 0 rgb(173,153,123),
+                4px 0px 0 rgb(126,116,136),
+                5px 0px 0 rgb(111,101,131),
+                6px 0px 0 rgb(195,185,175),
+                7px 0px 0 rgb(179,169,159),
+                8px 0px 7px rgb(0,0,0,0.35),
+                8px 0px 1px rgb(0,0,0,0.5),
+                0px 0px 7px rgb(0,0,0,.2);
+        }
+        .box2{
+            text-shadow:
+                0px 0px 0 rgb(188,178,188),
+                1px -1px 0 rgb(173,163,153),
+                2px -2px 0 rgb(156,138,126),
+                3px -3px 0 rgb(173,153,123),
+                4px -4px 0 rgb(126,116,136),
+                5px -5px 0 rgb(111,101,131),
+                6px -6px 0 rgb(195,185,175),
+                7px -7px 0 rgb(179,169,159),
+                8px -8px 7px rgb(0,0,0,0.35),
+                8px -8px 1px rgb(0,0,0,0.5),
+                0px 0px 7px rgb(0,0,0,.2);
+        }
+        .box3{
+            text-shadow:
+                0px 0px 0 rgb(188,178,188),
+                0px -1px 0 rgb(173,163,153),
+                0px -2px 0 rgb(156,138,126),
+                0px -3px 0 rgb(173,153,123),
+                0px -4px 0 rgb(126,116,136),
+                0px -5px 0 rgb(111,101,131),
+                0px -6px 0 rgb(195,185,175),
+                0px -7px 0 rgb(179,169,159),
+                0px -8px 7px rgb(0,0,0,0.35),
+                0px -8px 1px rgb(0,0,0,0.5),
+                0px 0px 7px rgb(0,0,0,.2);
+        }
+        .box4{
+            text-shadow:
+                0px 0px 0 rgb(188,178,188),
+                -1px -1px 0 rgb(173,163,153),
+                -2px -2px 0 rgb(156,138,126),
+                -3px -3px 0 rgb(173,153,123),
+                -4px -4px 0 rgb(126,116,136),
+                -5px -5px 0 rgb(111,101,131),
+                -6px -6px 0 rgb(195,185,175),
+                -7px -7px 0 rgb(179,169,159),
+                -8px -8px 7px rgb(0,0,0,0.35),
+                -8px -8px 1px rgb(0,0,0,0.5),
+                0px 0px 7px rgb(0,0,0,.2);
+        }
+        .box5{
+            text-shadow:
+                0px 0px 0 rgb(188,178,188),
+                -1px 0px 0 rgb(173,163,153),
+                -2px 0px 0 rgb(156,138,126),
+                -3px 0px 0 rgb(173,153,123),
+                -4px 0px 0 rgb(126,116,136),
+                -5px 0px 0 rgb(111,101,131),
+                -6px 0px 0 rgb(195,185,175),
+                -7px 0px 0 rgb(179,169,159),
+                -8px 0px 7px rgb(0,0,0,0.35),
+                -8px 0px 1px rgb(0,0,0,0.5),
+                0px 0px 7px rgb(0,0,0,.2);
+        }
+        .box6{
+            text-shadow:
+                0px 0px 0 rgb(188,178,188),
+                -1px 1px  0 rgb(173,163,153),
+                -2px 2px 0 rgb(156,138,126),
+                -3px 3px 0 rgb(173,153,123),
+                -4px 4px 0 rgb(126,116,136),
+                -5px 5px 0 rgb(111,101,131),
+                -6px 6px 0 rgb(195,185,175),
+                -7px 7px 0 rgb(179,169,159),
+                -8px 8px 7px rgb(0,0,0,0.35),
+                -8px 8px 1px rgb(0,0,0,0.5),
+                0px 0px 7px rgb(0,0,0,.2);
+        }
+        .box7{
+            text-shadow:
+                0px 0px 0 rgb(188,178,188),
+                0px 1px 0 rgb(173,163,153),
+                0px 2px 0 rgb(156,138,126),
+                0px 3px 0 rgb(173,153,123),
+                0px 4px 0 rgb(126,116,136),
+                0px 5px 0 rgb(111,101,131),
+                0px 6px 0 rgb(195,185,175),
+                0px 7px 0 rgb(179,169,159),
+                0px 8px 7px rgb(0,0,0,0.35),
+                0px 8px 1px rgb(0,0,0,0.5),
+                0px 0px 7px rgb(0,0,0,.2);
+        }
+        .box8{
+            text-shadow:
+                0px 0px 0 rgb(188,178,188),
+                1px 1px 0 rgb(173,163,153),
+                2px 2px 0 rgb(156,138,126),
+                3px 3px 0 rgb(173,153,123),
+                4px 4px 0 rgb(126,116,136),
+                5px 5px 0 rgb(111,101,131),
+                6px 6px 0 rgb(195,185,175),
+                7px 7px 0 rgb(179,169,159),
+                8px 8px 7px rgb(0,0,0,0.35),
+                8px 8px 1px rgb(0,0,0,0.5),
+                0px 0px 7px rgb(0,0,0,.2);
+        }
+        .box9{
+            text-shadow:
+                0px 0px 0 rgb(188,178,188),
+                1px 1px 0 rgb(173,163,153),
+                2px 2px 0 rgb(156,138,126),
+                3px 3px 0 rgb(173,153,123),
+                4px 4px 0 rgb(126,116,136),
+                5px 5px 0 rgb(111,101,131),
+                6px 6px 0 rgb(195,185,175),
+                7px 7px 0 rgb(179,169,159),
+                8px 8px 7px rgb(0,0,0,0.35),
+                8px 8px 1px rgb(0,0,0,0.5),
+                0px 0px 7px rgb(0,0,0,.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="text-wrap box1">W3cplus (0 deg)</div>
+    <div class="text-wrap box2">W3cplus (45 deg)</div>
+    <div class="text-wrap box3">W3cplus (90 deg)</div>
+    <div class="text-wrap box4">W3cplus (135 deg)</div>
+    <div class="text-wrap box5">W3cplus (180 deg)</div>
+    <div class="text-wrap box6">W3cplus (225 deg)</div>
+    <div class="text-wrap box7">W3cplus (270 deg)</div>
+    <div class="text-wrap box8">W3cplus (315 deg)</div>
+    <div class="text-wrap box9">W3cplus (360 deg)</div>
+</body>
+</html>
