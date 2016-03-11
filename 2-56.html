@@ -3,29 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="http://www.w3cplus.com/demo/css3.base.css" media="all" />
     <style type="text/css">
-        .text-overflow-clip1{
-            width: 80px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            text-overflow: clip;
+        .block{
+            white-space:nowrap;
+            width:12em;
+            overflow:hidden;
+            border:1px solid #000000;
+            width:60px;
+            line-height: 20px;
+            border:1px solid #fc9;
         }
-        .text-overflow-clip2{
-            width: 80px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            text-overflow: clip;
+        .block ol{
+            padding-left: 23px;
+            width: 14em;
+            background: url(images/2-11-test.jpg) no-repeat 2px 4px;
+        }
+        .block li{
+            clear: both;
+            margin: 0;
+            padding: 0;
+            list-style: none outside none;
+            width: 30px;
+            overflow:hidden;
+            white-space:nowrap;
+        }
+        .block li a{
+            float: left;
+            _display:inline;
+            max-width: 14em;
             white-space: nowrap;
+            _white-space:normal;
+            _height:20px;
             overflow: hidden;
+            text-overflow: ellipsis;
+            -o-text-overflow: ellipsis;
+            color:#333;
+            _background:transparent;
+        }
+        .block li span{
+            _position:relative;
+            float:left;
+            _display:inline;
+            margin-right: -99px;
+            padding-left: 10px;
+            font-size: 10px;
+            color:#999;
         }
     </style>
 </head>
 <body>
-    <div class="text-overflow-clip1">
-        我就是来看一下是不是这里有好吃的。如果没有我就再换个地方找。
-    </div>
-    <div class="text-overflow-clip2">
-        我又换了一个地方，果然找到好吃的了。开心。
-    </div>
+<div class="block" style="text-overflow:ellipsis;" >
+    <span >
+          零食有五份
+    </span>
+   <ol>
+       <li style="text-overflow:ellipsis;">
+           这里是一碗汤
+       </li>
+       <li style="text-overflow:clip;">
+           米饭三碗在这边
+       </li>
+   </ol>
+</div>
 </body>
 </html>
