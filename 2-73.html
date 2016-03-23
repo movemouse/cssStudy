@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css" media="screen">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body>div{
+            border: 1px solid #0066cc;
+            margin: 10px;
+            width: 200px;
+            height: 200px;
+        }
+        div > div{
+            border: 1px crimson #f36;
+            padding: 10px;
+        }
+        .box{
+            display: -moz-box;
+            display: -webit-box;
+            display: box;
+
+            -moz-box-pack: start;
+            -webkit-box-pack: start;
+            box-pack: start;
+            -moz-box-align: start;
+            -webkit-box-align:start;
+            box-align:start;
+            box-pack:start;
+            -moz-box-lines:multiple;
+            -webkit-box-lines:multiple;
+            box-lines:multiple;
+        }
+
+        .box-horizontal{
+            -moz-box-orient: horizontal;
+            -webkit-box-orient:horizontal;
+            box-orient:horizontal
+        }
+
+        .box-vertical{
+            -moz-box-orient:vertical;
+            -webkit-box-orient:vertical;
+            box-orient:vertical;
+        }
+    </style>
+</head>
+<body>
+<div class="box box-horizontal">
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
+    <div>E</div>
+    <div>F</div>
+    <div>G</div>
+    <div>H</div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</div>
+
+<div class="box box-vertical">
+    <div>A1</div>
+    <div>B1</div>
+    <div>C1</div>
+    <div>D1</div>
+    <div>E1</div>
+    <div>F1</div>
+    <div>G1</div>
+    <div>H1</div>
+    <div>11</div>
+    <div>21</div>
+    <div>31</div>
+</div>
+</body>
+</html>

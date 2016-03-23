@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css" media="screen">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            color:#8f8f8f;
+            font-size:20px;
+        }
+        .box-flex{
+            width:910px;
+            background: gray;
+            margin:100px;
+            display:-webkit-box;
+            display:-moz-box;
+            display:box;
+        }
+        .box-flex p:first-child{
+            background: darkgreen;
+            -moz-box-flex:1;
+            -webkit-box-flex:1;
+            box-flex:1;
+        }
+        .box-flex p:last-child{
+            background: orange;
+            -moz-box-flex:2;
+            -webkit-box-flex:2;
+            box-flex:2;
+        }/2-75.html
+    </style>
+</head>
+<body>
+    <div class="box-flex">
+        <p>
+            我想吃一盘红烧肉～
+        </p>
+        <p>
+            没有红烧肉，排骨我也很想吃～
+        </p>
+    </div>
+</body>
+</html>

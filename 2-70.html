@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css" media="screen">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body>div{
+            border:1px solid #ccc;
+            margin:20px;
+            padding:10px;
+        }
+        div>div{
+            background-color: #123589;
+            border:1px solid #a6f5f3;
+            width:100px;
+            height:100px;
+            text-align: center;
+            line-height: 100px;
+        }
+        .box{
+            display: -moz-box;
+            display: -webkit-box;
+
+        }
+        .inline-box{
+            display:-moz-inline-box;
+
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
+</div>
+<div class="inline-box">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css" media="screen">
+        .box{
+            width: 500px;
+            height: 200px;
+            margin:20px;
+            border:1px solid #ccc;
+            font-size:20px;
+            font-weight: bold;
+            color:#fff;
+        }
+        .box-item{
+            background-color: #6bb2ff;
+        }
+        .box,.box3 > div{
+            padding: 10px;
+        }
+        .box div:nth-child(1){
+            background-color: #819321;
+            line-height: 50px;
+        }
+        .box div:nth-child(2){
+            background-color: #168929;
+            line-height: 50px;
+        }
+        .box div:nth-child(3){
+            background-color: #197332;
+            line-height: 50px;
+        }
+        .box div:nth-child(4){
+            background-color: #390289;
+        }
+        .box div:nth-child(5){
+            background-color: #702356;
+        }
+        .box{
+            display: -webkit-box;
+            display:-moz-box;
+            display:box;
+            -webkit-box-align: start;
+            -moz-box-align: start;
+            box-align:start;
+            -webkit-box-pack:start;
+            -moz-box-pack:start;
+            box-pack:start;
+        }
+        .box-orient-vertical{
+            -webkit-box-orient: vertical;
+            -moz-box-orient: vertical;
+            box-orient:vertical;
+            height: 400px;
+        }
+        .box3{
+            display: -webkit-box;
+            display:-moz-box;
+            display:box;
+            -webkit-box-align: start;
+            -moz-box-align: start;
+            box-align:start;
+            -webkit-box-pack:end;
+            -moz-box-pack:end;
+            box-pack:end;
+            width:100px;
+        }
+        .box4{
+            display: -webkit-box;
+            display:-moz-box;
+            display:box;
+            -webkit-box-align: start;
+            -moz-box-align: start;
+            box-align:start;
+            -webkit-box-pack:center;
+            -moz-box-pack:center;
+            box-pack:center;
+            background-color: #238692;
+            width:100px;
+        }
+        .box5{
+            display: -webkit-box;
+            display:-moz-box;
+            display:box;
+            -webkit-box-align: start;
+            -moz-box-align: start;
+            box-align:start;
+            -webkit-box-pack:justify;
+            -moz-box-pack:justify;
+            box-pack:justify;
+            background-color: #8f8f8f;
+            width:100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box-pack-start">
+        <div class="box-item">box~~1</div>
+        <div class="box-item">box~~2</div>
+        <div class="box-item">box~~3</div>
+        <div class="box-item">box~~4</div>
+        <div class="box-item">box~~5</div>
+    </div>
+    <div class="box box-pack-start box-orient-vertical">
+        <div class="box-item">~~1</div>
+        <div class="box-item">~~2</div>
+        <div class="box-item">~~3</div>
+        <div class="box-item">~~4</div>
+        <div class="box-item">~~5</div>
+    </div>
+    <div class="box3 box-pack-start box-orient-vertical">
+        <div class="box-item">~~1</div>
+        <div class="box-item">~~2</div>
+        <div class="box-item">~~3</div>
+        <div class="box-item">~~4</div>
+        <div class="box-item">~~5</div>
+    </div>
+    <div class="box4 box-pack-start box-orient-vertical">
+        <div class="box-item">~~1</div>
+        <div class="box-item">~~2</div>
+        <div class="box-item">~~3</div>
+        <div class="box-item">~~4</div>
+        <div class="box-item">~~5</div>
+    </div>
+    <div class="box5 box-pack-start box-orient-vertical">
+        <div class="box-item">~~1</div>
+        <div class="box-item">~~2</div>
+        <div class="box-item">~~3</div>
+        <div class="box-item">~~4</div>
+        <div class="box-item">~~5</div>
+    </div>
+</body>
+</html>
